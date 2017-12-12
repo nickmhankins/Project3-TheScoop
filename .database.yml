@@ -1,0 +1,44 @@
+users:
+  nicktest@test.com:
+    username: nicktest@test.com
+    articleIds:
+      - 1
+    commentIds: []
+  no@nono.com:
+    username: no@nono.com
+    articleIds:
+      - 2
+    commentIds: []
+  a@a.com:
+    username: a@a.com
+    articleIds: []
+    commentIds: []
+  no u:
+    username: no u
+    articleIds: []
+    commentIds: []
+articles:
+  '1':
+    id: 1
+    title: things
+    url: stuff
+    username: nicktest@test.com
+    commentIds: []
+    upvotedBy:
+      - no@nono.com
+    downvotedBy:
+      - a@a.com
+  '2':
+    id: 2
+    title: n ono
+    url: google.com
+    username: no@nono.com
+    commentIds: []
+    upvotedBy:
+      - no@nono.com
+      - a@a.com
+      - no u
+    downvotedBy: []
+nextArticleId: 3
+comments: {}
+nextCommentId: 1
